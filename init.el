@@ -6,6 +6,8 @@
 (global-linum-mode 1)
 (column-number-mode 1)
 (global-hl-line-mode 1)
+(set-frame-font
+ "-ADBO-Source Code Pro-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1")
 (require 'package) ;; You might already have this line
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
